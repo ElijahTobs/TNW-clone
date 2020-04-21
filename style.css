@@ -1,0 +1,69 @@
+html {
+    font-size: 62.5%;
+}
+
+/* nav div:first-child {
+    background-color: blue;
+} */
+nav  {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 28px;
+    background-color: #F42;
+    padding: .96rem .8rem;
+}
+nav a img {
+    width: 66px;
+    height: 16px;
+}
+
+/* nav div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid green;
+    width: 9.6rem;
+    height: 4.8rem;
+} */
+
+/* nav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+nav li {
+    float: left;
+    /* justify-self: center;
+    align-self: center; */
+    /* margin: auto; */
+}
+
+nav .fas::before {
+    padding-top: 25px;
+}
+
+nav .fa-bars {
+    color: crimson;
+}
+nav div .fas {
+    /* margin: auto; */
+    width: 4.8rem;
+    height: 4.8rem;
+    font-size: 2rem;
+    border-left: 0.1rem solid gray;
+    /* text-align: center; */
+}
