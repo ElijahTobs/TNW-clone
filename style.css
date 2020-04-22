@@ -2,6 +2,10 @@ html {
     font-size: 62.5%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 /* nav div:first-child {
     background-color: blue;
 } */
@@ -76,7 +80,7 @@ nav div .fas {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 12.2rem);
-    grid-gap: 0.5rem;
+    grid-gap: 0.8rem;
     justify-content: start;
     align-items: center;
 }
@@ -89,11 +93,13 @@ nav div .fas {
 
 .main-article {
     height: 100%;
+    overflow: hidden;
     border: 1px solid #000;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    padding: 2rem 1.5rem;
 }
 
 .main-article a {
@@ -129,6 +135,10 @@ nav div .fas {
 }
 
 @media only screen and (min-width: 1024px) {
+    .main-section {
+        grid-template-rows: repeat(2, 20.2rem);
+    }
+    
     .article1 a {
        font-size: 5.6rem; 
     }
