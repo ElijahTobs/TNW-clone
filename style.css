@@ -132,6 +132,22 @@ nav div .fas {
   margin-left: 20px;
 }
 
+.funding-header	{
+	height: 3rem;
+	padding-left: 8rem;
+	background-color: red;
+	display: flex;
+	align-items: center;
+}
+
+.funding-details img {
+	width: 6rem;
+	position: relative;
+	top: -2rem;
+	left: 1rem;
+	border: 1px solid #000;
+}
+
 @media only screen and (min-width: 768px) {
     .hero-section {
 			display: grid;
