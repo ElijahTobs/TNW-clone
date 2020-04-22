@@ -76,6 +76,7 @@ nav div .fas {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 12.2rem);
+    grid-gap: 0.5rem;
     justify-content: start;
     align-items: center;
 }
@@ -87,7 +88,7 @@ nav div .fas {
 }
 
 .main-article {
-    /* height: 12.2rem; */
+    height: 100%;
     border: 1px solid #000;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
     display: flex;
@@ -98,7 +99,7 @@ nav div .fas {
 .main-article a {
     text-decoration: none;
     color: #fff;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 
@@ -125,7 +126,15 @@ nav div .fas {
     .article3 {
         grid-area: article3;
     }
+}
 
+@media only screen and (min-width: 1024px) {
+    .article1 a {
+       font-size: 5.6rem; 
+    }
 
+    .article2 a, .article3 a {
+        font-size: 2.8rem;
+    }
 }
 
