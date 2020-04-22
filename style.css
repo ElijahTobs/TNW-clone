@@ -5,10 +5,12 @@ html {
 /* nav div:first-child {
     background-color: blue;
 } */
+
 nav  {
     display: flex;
     justify-content: space-between;
 }
+
 nav a {
     /* display: block; */
     display: flex;
@@ -19,6 +21,7 @@ nav a {
     background-color: #F42;
     padding: .96rem .8rem;
 }
+
 nav a img {
     width: 66px;
     height: 16px;
@@ -59,6 +62,7 @@ nav .fas::before {
 nav .fa-bars {
     color: crimson;
 }
+
 nav div .fas {
     /* margin: auto; */
     width: 4.8rem;
@@ -67,3 +71,33 @@ nav div .fas {
     border-left: 0.1rem solid gray;
     /* text-align: center; */
 }
+
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 12.2rem);
+    justify-content: start;
+    align-items: center;
+}
+
+.main-section article:first-child {
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-article {
+    height: 12.2rem;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.main-article a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+}
+
+
