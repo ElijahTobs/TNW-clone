@@ -1,32 +1,32 @@
 html {
-  font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /* nav div:first-child {
   background-color: blue;
 } */
 
-nav  {
-  display: flex;
-  justify-content: space-between;
+nav {
+    display: flex;
+    justify-content: space-between;
 }
 
 nav a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 90px;
-  height: 48px;
-  background-color: #F42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 48px;
+    background-color: #F42;
 }
 
 nav a img {
-  width: 66px;
-  height: 16px;
+    width: 66px;
+    height: 16px;
 }
 
 /* nav div {
@@ -45,163 +45,203 @@ nav a img {
 } */
 
 nav ul {
-  display: flex;
-  justify-content: center;
-  margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 nav li {
-  float: left;
+    float: left;
     /* justify-self: center;
     align-self: center; */
     /* margin: auto; */
 }
 
 nav .fas::before {
-  padding-top: 25px;
+    padding-top: 25px;
 }
 
 nav .fa-bars {
-  color: crimson;
+    color: crimson;
 }
 
 nav div .fas {
-  width: 4.8rem;
-  height: 4.8rem;
-  font-size: 2rem;
-  border-left: 0.1rem solid gray;
+    width: 4.8rem;
+    height: 4.8rem;
+    font-size: 2rem;
+    border-left: 0.1rem solid gray;
 }
 
 .hero-section {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(3, 16.2rem);
-  grid-gap: 0.8rem;
-  justify-content: start;
-  align-items: center;
-  margin: 0 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 16.2rem);
+    grid-gap: 0.8rem;
+    justify-content: start;
+    align-items: center;
+    margin: 0 10px;
 }
 
 .hero-section article:first-child {
-  background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main-article {
-  height: 100%;
-  overflow: hidden;
-  border: 1px solid #000;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 2rem 1.5rem;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #000;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem 1.5rem;
 }
 
 .main-article a {
-	text-decoration: none;
-	color: #fff;
-	font-size: 2rem;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
 }
 
 .latest {
-  margin: 6rem 20px;
+    /* margin-top: 70px; */
+    width: 95%;
+    height: auto;
+    margin: auto;
+    margin-top: 6rem;
 }
 
 .category-name {
-	font-size: 2.8rem;
-	font-weight: bold;
+    font-size: 2.8rem;
+    font-weight: bold;
 }
 
 .latest-article {
-	border: 1px solid #000;
-	margin: 30px 0 20px 0;
-	width: 90%;
-	height: 7.5rem;
+    border: 1px solid #000;
+    margin: 30px 0 20px 0;
+    width: 100%;
+    height: 7.5rem;
 }
 
 .latest-article img {
-	width: 7.5rem;
-	height: 7.5rem;
-	float: left;
-	margin-right: 10px;
+    width: 7.5rem;
+    height: 7.5rem;
+    float: left;
+    margin-right: 10px;
+}
+
+.latest-article span {
+    color: #aaa;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+figcaption span .fa-minus {
+    font-size: 3px;
+    margin-bottom: 5px;
 }
 
 .latest-article figcaption {
-  margin-left: 20px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-family: 'Courgette', serif;
 }
 
-.funding-header	{
-	height: 3rem;
-	padding-left: 8rem;
-	background-color: red;
-	display: flex;
-	align-items: center;
+.latest-article figcaption p {
+    margin-bottom: 0.8rem;
+}
+
+.funding-header {
+    height: 3rem;
+    padding-left: 8rem;
+    background-color: red;
+    display: flex;
+    align-items: center;
 }
 
 .funding-details img {
-	width: 6rem;
-	position: relative;
-	top: -2rem;
-	left: 1rem;
-	border: 1px solid #000;
+    width: 6rem;
+    position: relative;
+    top: -2rem;
+    left: 1rem;
+    border: 1px solid #000;
 }
 
 @media only screen and (min-width: 768px) {
     .hero-section {
-			display: grid;
-			grid-template-columns: repeat(3, 1fr);
-			grid-template-rows: repeat(2, 16.2rem);
-			grid-template-areas: 
-					"article1 article1 article2"
-					"article1 article1 article3";
-			justify-content: start;
-			align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 16.2rem);
+        grid-template-areas:
+            "article1 article1 article2"
+            "article1 article1 article3";
+        justify-content: start;
+        align-items: center;
     }
 
     .article1 {
-      grid-area: article1;
+        grid-area: article1;
     }
 
     .article2 {
-      grid-area: article2;
+        grid-area: article2;
     }
 
     .article3 {
-      grid-area: article3;
+        grid-area: article3;
     }
 
     .latest-wrapper {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 22rem);
+        gap: 15px;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
     }
 
     .latest-article {
-			width: 27rem;
-			margin-bottom: 3rem;
-			height:  auto;
+        /* width: 23.5rem; */
+        margin-bottom: 3rem;
+        /* height: auto; */
+        font-size: 16px;
+        color: #000;
+        font-weight: bold;
     }
 
     .latest-article img {
-			width: 27rem;
-			height: 13.5rem;
-			float: none;
+        width: 100%;
+        height: 100%;
+        float: none;
     }
 }
 
 @media only screen and (min-width: 1024px) {
     .hero-section {
-      grid-template-rows: repeat(2, 20.2rem);
-    }
-    
-    .article1 a {
-      font-size: 5.6rem; 
+        grid-template-rows: repeat(2, 20.2rem);
     }
 
-    .article2 a, .article3 a {
-      font-size: 2.8rem;
+    .article1 a {
+        font-size: 5.6rem;
+    }
+
+    .article2 a,
+    .article3 a {
+        font-size: 2.8rem;
+    }
+
+    .latest-article figcaption {
+        margin: 0;
+    }
+
+    .latest-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 22rem);
+        gap: 15px;
+        /* flex-wrap: wrap; */
+        justify-content: space-between;
     }
 }
-
