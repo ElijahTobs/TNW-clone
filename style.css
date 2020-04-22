@@ -87,7 +87,8 @@ nav div .fas {
 }
 
 .main-article {
-    height: 12.2rem;
+    /* height: 12.2rem; */
+    border: 1px solid #000;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
     display: flex;
     flex-direction: column;
@@ -100,4 +101,31 @@ nav div .fas {
     font-size: 3rem;
 }
 
+
+@media only screen and (min-width: 768px) {
+    .main-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 12.2rem);
+        grid-template-areas: 
+            "article1 article1 article2"
+            "article1 article1 article3";
+        justify-content: start;
+        align-items: center;
+    }
+
+    .article1 {
+        grid-area: article1;
+    }
+
+    .article2 {
+        grid-area: article2;
+    }
+
+    .article3 {
+        grid-area: article3;
+    }
+
+
+}
 
