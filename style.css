@@ -21,9 +21,9 @@ nav a {
     align-items: center;
     justify-content: center;
     width: 90px;
-    height: 28px;
+    height: 48px;
     background-color: #F42;
-    padding: .96rem .8rem;
+    /* padding: .96rem .8rem; */
 }
 
 nav a img {
@@ -79,10 +79,11 @@ nav div .fas {
 .main-section {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 12.2rem);
+    grid-template-rows: repeat(3, 16.2rem);
     grid-gap: 0.8rem;
     justify-content: start;
     align-items: center;
+    margin: 0 10px;
 }
 
 .main-section article:first-child {
@@ -109,11 +110,12 @@ nav div .fas {
 }
 
 
+
 @media only screen and (min-width: 768px) {
     .main-section {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 12.2rem);
+        grid-template-rows: repeat(2, 16.2rem);
         grid-template-areas: 
             "article1 article1 article2"
             "article1 article1 article3";
