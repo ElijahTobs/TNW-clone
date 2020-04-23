@@ -105,6 +105,18 @@ html {
 	font-size: 2rem;
 }
 
+.article-category {
+	color: rgb(231, 228, 228);
+}
+
+.category-red {
+	color: red;
+}
+
+.article-meta {
+	color: #333;
+}
+
 .latest {
 	/* margin-top: 70px; */
 	width: 95%;
@@ -241,9 +253,13 @@ figcaption span .fa-minus {
     border: 1px solid #000;
 }
 
+.news-categories {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
 .category-hero {
     width: 100%;
-    height: 500px;
     overflow: hidden;
     border: 1px solid #000;
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
@@ -253,24 +269,56 @@ figcaption span .fa-minus {
     padding: 2rem 1.5rem;
 }
 
+.category-hero > h1 > a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 2rem;
+}
+
 .apps-hero {
     background-image: url(./img/zoom-5.0-1024x576-796x448.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+		background-size: cover;
+		background-position: 50% 50%;
 }
 
 .category-second {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+		justify-content: space-between;
+		margin: 1.5rem 0 1.5rem 1rem;
 }
 
 .category-second img {
-    width: 9.6rem;
+  width: 9.6rem;
+}
+
+/* .category-second > h2 {
+	margin-top: 0.5rem;
+} */
+
+.category-second-title {
+	display: block;
+	text-decoration: none;
+	color: red;
+	margin-top: 0.5rem;
+}
+
+.category-third h2 {
+	font-weight: 200;
 }
 
 .category-third a {
 	text-decoration: none;
+	color: #333;
+	display: block;
+	margin: 1rem 0;
+	font-size: 1.2rem;
+}
+
+.category-third a:hover {
+	text-decoration: none;
+	color: #111;
 }
 
 .nav-bottom {
@@ -339,6 +387,11 @@ figcaption span .fa-minus {
 		.hide768 {
 			display: none;
 		}
+
+		.news-categories {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+		}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -377,5 +430,10 @@ figcaption span .fa-minus {
 	
 	.show1024 {
 		display: block;
+	}
+
+	.news-categories {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
 	}
 }
