@@ -178,6 +178,10 @@ figcaption span .fa-minus {
     color: #FF4422;
 }
 
+.latest-funding-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 .funding-article p {
     font-size: 1.3rem;
@@ -325,6 +329,16 @@ figcaption span .fa-minus {
         height: 100%;
         float: none;
     }
+
+    .latest-funding-wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+		}
+		
+		.hide768 {
+			display: none;
+		}
 }
 
 @media only screen and (min-width: 1024px) {
@@ -353,5 +367,15 @@ figcaption span .fa-minus {
         /* flex-wrap: wrap; */
         justify-content: space-between;
         margin-bottom: 6rem;
-    }
+		}
+		
+		.latest-funding-wrapper {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-gap: 2rem;
+	}
+	
+	.show1024 {
+		display: block;
+	}
 }
