@@ -367,11 +367,78 @@ figcaption span .fa-minus {
 }
 
 .nav-bottom {
-  background-color: pink;
+  background-color: #131313;
+  height: 16.1rem;
+  color: #555;
+}
+
+.nav-bottom .social-links ul,
+.nav-bottom .site-links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bottom .site-links ul {
+  padding-top: 5rem;
+}
+
+.nav-bottom .site-links li {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+ 
+.nav-bottom .social-links li {
+  margin-right: .6rem;
+  font-size: 1.4rem;
+  padding-top: 5rem;
+}
+
+/* .social-links .fab::before,
+.social-links .fas::before {
+  width: 1.6rem;
+  height: 1.6rem;
+} */
+
+.nav-bottom a {
+  /* color: #555; */
+  text-decoration: none;
+}
+.nav-bottom .social-links li a {
+  border: 1px solid #333;
+  border-radius: 50%;
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 1rem;
+  color: #fff;
+  background-color: #333;
+  font-size: 1.8rem;
+}
+
+.nav-bottom .site-links li a{
+  color: #aaa;
 }
 
 .page-footer {
-  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  height: 9.7rem;
+  font-size: 1.4rem;
+  color: #aaa;
+}
+
+.page-footer p {
+  margin-top: .5rem;
+}
+
+.page-footer p .love {
+  color: red;
+}
+
+.page-footer img {
+  height: .9rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -453,6 +520,18 @@ figcaption span .fa-minus {
 
   .category-hero {
       height: 27.7rem;
+  }
+
+  .nav-bottom .site-links li, 
+  .nav-bottom .social-links li {
+    margin-right: 1.5rem;
+  }
+
+  .page-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
 }
 
