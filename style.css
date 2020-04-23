@@ -269,6 +269,14 @@ figcaption span .fa-minus {
 	text-decoration: none;
 }
 
+.nav-bottom {
+	background-color: pink;
+}
+
+.page-footer {
+	background-color: skyblue;
+}
+
 @media only screen and (min-width: 768px) {
     .hero-section {
         display: grid;
