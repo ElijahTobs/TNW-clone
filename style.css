@@ -1,121 +1,121 @@
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* nav div:first-child {
   background-color: blue;
 } */
 
-nav {
-    display: flex;
-    justify-content: space-between;
+.nav-top {
+	display: flex;
+	justify-content: space-between;
 }
 
-nav a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 90px;
-    height: 48px;
-    background-color: #F42;
+.nav-top a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90px;
+	height: 48px;
+	background-color: #F42;
 }
 
-nav a img {
-    width: 66px;
-    height: 16px;
+.nav-top a img {
+	width: 66px;
+	height: 16px;
 }
 
 /* nav div {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    border: 1px solid green;
-    width: 9.6rem;
-    height: 4.8rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border: 1px solid green;
+	width: 9.6rem;
+	height: 4.8rem;
 } */
 
 /* nav li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 } */
 
-nav ul {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+.nav-top ul {
+	display: flex;
+	justify-content: center;
+	margin: auto;
 }
 
-nav li {
-    float: left;
-    /* justify-self: center;
-    align-self: center; */
-    /* margin: auto; */
+.nav-top li {
+	float: left;
+	/* justify-self: center;
+	align-self: center; */
+	/* margin: auto; */
 }
 
-nav .fas::before {
-    padding-top: 25px;
+.nav-top .fas::before {
+  padding-top: 25px;
 }
 
-nav .fa-bars {
-    color: crimson;
+.nav-top .fa-bars {
+  color: crimson;
 }
 
-nav div .fas {
-    width: 4.8rem;
-    height: 4.8rem;
-    font-size: 2rem;
-    border-left: 0.1rem solid gray;
+.nav-top div .fas {
+	width: 4.8rem;
+	height: 4.8rem;
+	font-size: 2rem;
+	border-left: 0.1rem solid gray;
 }
 
 .hero-section {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 16.2rem);
-    grid-gap: 0.8rem;
-    justify-content: start;
-    align-items: center;
-    margin: 0 10px;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(3, 16.2rem);
+	grid-gap: 0.8rem;
+	justify-content: start;
+	align-items: center;
+	margin: 0 10px;
 }
 
 .hero-section article:first-child {
-    background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url('https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .main-article {
-    height: 100%;
-    overflow: hidden;
-    border: 1px solid #000;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding: 2rem 1.5rem;
+	height: 100%;
+	overflow: hidden;
+	border: 1px solid #000;
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding: 2rem 1.5rem;
 }
 
 .main-article a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 2rem;
+	text-decoration: none;
+	color: #fff;
+	font-size: 2rem;
 }
 
 .latest {
-    /* margin-top: 70px; */
-    width: 95%;
-    height: auto;
-    margin: auto;
-    margin-top: 6rem;
+	/* margin-top: 70px; */
+	width: 95%;
+	height: auto;
+	margin: auto;
+	margin-top: 6rem;
 }
 
 .category-name {
-    font-size: 2.8rem;
-    font-weight: bold;
+	font-size: 2.8rem;
+	font-weight: bold;
 }
 
 .category-name a {
