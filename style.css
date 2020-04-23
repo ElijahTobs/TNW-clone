@@ -161,12 +161,53 @@ figcaption span .fa-minus {
     align-items: center;
 }
 
+.funding-details {
+    display: flex;
+    background-color: orange;
+}
+
+.funding-details div {
+    margin: 1rem 0 0 2rem;
+}
+
 .funding-details img {
     width: 6rem;
     position: relative;
     top: -2rem;
     left: 1rem;
     border: 1px solid #000;
+}
+
+.category-hero {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border: 1px solid #000;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 1));
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2rem 1.5rem;
+}
+
+.apps-hero {
+    background-image: url(./img/zoom-5.0-1024x576-796x448.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.category-second {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-second img {
+    width: 9.6rem;
+}
+
+.category-third a {
+	text-decoration: none;
 }
 
 @media only screen and (min-width: 768px) {
