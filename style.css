@@ -414,9 +414,18 @@ figcaption span .fa-minus {
   font-size: 1.8rem;
 }
 
+.nav-bottom .social-links li a:hover {
+  background: #111;
+}
+
 .nav-bottom .site-links li a{
   color: #aaa;
 }
+
+.nav-bottom .site-links li a:hover {
+  color: #fff;
+}
+
 
 .page-footer {
   display: flex;
