@@ -124,7 +124,7 @@ html {
 
 .news-categories,
 .latest-funding,
-.latest {
+.latest, .deals {
   width: 95%;
   height: auto;
   margin: auto;
@@ -355,6 +355,26 @@ figcaption span .fa-minus {
   color: #111;
 }
 
+.deals {
+
+}
+
+.deals-article {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1.2rem;
+}
+
+.deals-bg {
+  width: 7.5rem;
+  padding-top: 7.5rem;
+  background-image: url(./img/feedback-design-516x270.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  margin-right: 1rem;
+}
+
 .deals .top {
   display: flex;
   justify-content: space-between;
@@ -474,12 +494,11 @@ figcaption span .fa-minus {
     grid-area: article3;
   }
 
-  .latest-wrapper {
+  .latest-wrapper, .deals-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 22rem);
     gap: 15px;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     margin-bottom: 6rem;
   }
@@ -531,6 +550,24 @@ figcaption span .fa-minus {
       height: 27.7rem;
   }
 
+  .deals {
+
+  }
+
+  .deals-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 15px;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+  }
+
+  .deals-bg {
+    width: 100%;
+    padding-top: 75%;
+  }
+
   .nav-bottom .site-links li, 
   .nav-bottom .social-links li {
     margin-right: 1.5rem;
@@ -567,7 +604,6 @@ figcaption span .fa-minus {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 22rem);
     gap: 15px;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     margin-bottom: 6rem;
   }
@@ -584,7 +620,7 @@ figcaption span .fa-minus {
 
   .latest,
   .latest-funding,
-  .news-categories {
+  .news-categories, .deals {
     width: 85%;
     margin: auto;
   }
@@ -600,5 +636,14 @@ figcaption span .fa-minus {
 
   .category-hero {
     height: 27.6rem;
+  }
+
+  .deals-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 15px;
+    justify-content: space-between;
+    margin-bottom: 6rem;
   }
 }
