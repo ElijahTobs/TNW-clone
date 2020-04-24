@@ -3,6 +3,7 @@ html {
 }
 
 * {
+  font-family: sans-serif;
   box-sizing: border-box;
 }
 
@@ -223,13 +224,19 @@ figcaption span a {
 
 .latest-article figcaption {
   margin-left: 5px;
-  font-size: 16px;
-  font-family: "serif", serif;
+  font-size: 14px;
+  font-family: sans-serif;
   font-weight: bold;
 }
 
-.latest-article figcaption p {
-  margin-bottom: 0.8rem;
+.latest-article figcaption h2 {
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+.latest-article figcaption h2 a{
+  text-decoration: none;
+  color: #000;
 }
 
 .latest-funding > div > ul li {
@@ -595,46 +602,36 @@ figcaption span a {
   .latest-wrapper, .deals-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 22rem);
+    grid-template-rows: repeat(3, auto);
     gap: 15px;
     justify-content: space-between;
     margin-bottom: 6rem;
   }
 
   .latest-article {
-    /* width: 23.5rem; */
+    width: 100%;
     margin-bottom: 3rem;
-    /* height: auto; */
-    font-size: 16px;
+    font-size: 14px;
     color: #000;
     font-weight: bold;
     height: 100%;
   }
 
   .latest-article figure {
+    width: 100%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    position: relative;
+  }
+
+  .latest-article figure div {
+    width: 100%;
+    padding-top: 50%;
   }
 
   .latest-article p {
     height: 100%;
   }
-
-  .latest-article figure div {
-    width: 100%;
-    /* position: absolute;
-    bottom: 100%; */
-    height: 14rem;
-    /* float: none; */
-  }
-
-  /* .latest-article figure figcaption {
-    position: absolute;
-    bottom: .2rem;
-    height: 20%;
-  } */
 
   .latest-funding div ul {
     width: 30rem;
