@@ -367,12 +367,27 @@ figcaption span .fa-minus {
 
 .deals-bg {
   width: 7.5rem;
+  position: relative;
   padding-top: 7.5rem;
   background-image: url(./img/feedback-design-516x270.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   margin-right: 1rem;
+}
+
+.deals-bg2 {
+  width: 8rem;
+  height: 8rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-image: url(./img/deals-ribbon.svg);
+}
+
+.deals-tag {
+  font-weight: bold;
+  transform: rotate(45deg) translate(55%, 55%);
 }
 
 .deals .top {
@@ -445,7 +460,6 @@ figcaption span .fa-minus {
 .nav-bottom .site-links li a:hover {
   color: #fff;
 }
-
 
 .page-footer {
   display: flex;
