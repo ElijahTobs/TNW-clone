@@ -263,6 +263,10 @@ figcaption span .fa-minus {
   grid-template-columns: 1fr;
 }
 
+.news-categories hr {
+  border: 0.5px solid rgb(238, 237, 237);
+}
+
 .category-hero {
   width: 100%;
   overflow: hidden;
@@ -325,6 +329,7 @@ figcaption span .fa-minus {
 }
 
 .category-third h2 {
+  line-height: 1.5;
   font-weight: 200;
   position: relative;
   padding-left: 1rem;
@@ -362,6 +367,7 @@ figcaption span .fa-minus {
 .deals-article {
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
   margin-bottom: 1.2rem;
 }
 
@@ -386,6 +392,7 @@ figcaption span .fa-minus {
 }
 
 .deals-info {
+  width: calc(100% - 8.5rem);
   margin-top: 1rem;
 }
 
@@ -412,7 +419,7 @@ figcaption span .fa-minus {
 }
 
 .deals-discounted {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   color: #555;
 }
 
