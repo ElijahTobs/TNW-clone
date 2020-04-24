@@ -259,7 +259,6 @@ figcaption span a {
 }
 
 .funding-article p {
-  font-size: 1.3rem;
   margin: 1rem;
   margin-left: 1.6rem;
 }
@@ -274,6 +273,7 @@ figcaption span a {
 
 .funding-article p.raise {
   font-size: 1.2rem;
+  line-height: 1.8;
   margin-bottom: 4rem;
 }
 
@@ -282,26 +282,23 @@ figcaption span a {
 }
 
 .funding-header {
-  height: 3rem;
+  height: 3.9rem;
   padding-left: 8rem;
+  color: #fff;
   background-color: #ff4422;
   display: flex;
   align-items: center;
 }
 
-.funding-type {
-  font-size: 1.1rem;
-  font-weight: 100;
-}
-
 .funding-header,
 .funding-amount {
   font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .funding-details {
   display: flex;
-  background-color: orange;
+  background-color: rgba(255, 68, 34, 0.08);
 }
 
 .funding-details div {
@@ -311,9 +308,18 @@ figcaption span a {
 .funding-details img {
   width: 6rem;
   position: relative;
-  top: -2rem;
+  top: -2.6rem;
   left: 1rem;
-  border: 1px solid #000;
+}
+
+.funding-type {
+  display: block;
+  margin-top: 0.2rem;
+  font-size: 1.2rem;
+}
+
+.funding-company p {
+  font-size: 1.3rem;
 }
 
 .news-categories {
@@ -409,7 +415,7 @@ figcaption span a {
   height: 0.4rem;
   left: 0;
   position: absolute;
-  top: 0.4rem;
+  top: 0.8rem;
   width: 0.4rem;
 }
 
