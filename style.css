@@ -385,6 +385,37 @@ figcaption span .fa-minus {
   display: none;
 }
 
+.deals-info {
+  margin-top: 1rem;
+}
+
+.deals-title {
+  font-size: 1.4rem;
+  line-height: 1.3;
+  text-decoration: none;
+  color: #000;
+}
+
+.deals-title:hover {
+  text-decoration: underline;
+  color: #f42;
+}
+
+.deals-price {
+  margin-top: 1rem;
+}
+
+.deals-base {
+  font-size: 1.2rem;
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.deals-discounted {
+  font-size: 1.2rem;
+  color: #555;
+}
+
 .deals .top {
   display: flex;
   justify-content: space-between;
