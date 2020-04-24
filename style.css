@@ -153,12 +153,50 @@ html {
   height: 7.5rem;
 }
 
-.latest-article img {
+.latest-article figure > div {
   width: 7.5rem;
   height: 7.5rem;
   float: left;
   margin-right: 10px;
 }
+
+.latest-article:nth-child(1) div {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/users-website-gq-516x270.png") center;
+  background-size: cover;
+}
+
+.latest-article:nth-child(2) div {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/OnePlus-8-Pro-screen-514x270.jpg") center;
+  background-size: cover;
+}
+
+.latest-article:nth-child(3) div {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/OnePlus-8-Pro-screen-514x270.jpg") center;
+  background-size: cover;
+}
+
+.latest-article:nth-child(4) div {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/empathy-leadership-gq-516x270.png") center;
+  background-size: cover;
+}
+
+.latest-article:nth-child(5) div {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Dr.-spot-510x270.jpg") center;
+  background-size: cover;
+}
+.latest-article:nth-child(6) div {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed-516x270.png") center;
+  background-size: cover;
+}
+.latest-article:nth-child(7) div {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-New-Horizons-516x270.jpg") center;
+  background-size: cover;
+}
+.latest-article:nth-child(8) div {
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Levy-Electric-Scooter-4-of-4-515x270.jpg") center;
+  background-size: cover;
+}
+
 
 .latest-article span {
   color: #aaa;
@@ -166,15 +204,28 @@ html {
   font-weight: normal;
 }
 
-figcaption span .fa-minus {
+figcaption .fa-minus {
   font-size: 3px;
   margin-bottom: 5px;
+}
+figcaption a {
+  text-decoration: none;
+}
+
+figcaption p > a,
+figcaption span a:hover {
+  color: #000;
+}
+
+figcaption span a {
+  color: #aaa;
 }
 
 .latest-article figcaption {
   margin-left: 5px;
   font-size: 16px;
-  font-family: "Courgette", serif;
+  font-family: "serif", serif;
+  font-weight: bold;
 }
 
 .latest-article figcaption p {
