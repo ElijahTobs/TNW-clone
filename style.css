@@ -322,6 +322,10 @@ figcaption span a {
   font-size: 1.3rem;
 }
 
+.funding-article hr {
+  border: 0.5px solid rgba(255, 68, 34, 0.15);
+}
+
 .news-categories {
   display: grid;
   grid-template-columns: 1fr;
