@@ -791,6 +791,15 @@ figcaption span a {
     border-right: none;
   }
 
+
+  .latest-funding .flex ul li .second {
+    border-right: #f42 1px solid;
+  }
+
+  .latest-funding .flex ul li .first {
+    padding: 0.7rem;
+  }
+
   .latest-funding div ul {
     display: flex;
     flex-direction: row-reverse;
