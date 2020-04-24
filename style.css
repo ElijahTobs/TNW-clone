@@ -256,7 +256,7 @@ figcaption span a {
   grid-template-columns: 1fr;
 }
 
-.funding-article p {
+.funding-article .raise {
   margin: 1rem;
   margin-left: 1.6rem;
 }
@@ -314,6 +314,15 @@ figcaption span a {
   display: block;
   margin-top: 0.2rem;
   font-size: 1.2rem;
+}
+
+.funding-company {
+  padding: 1.6rem;
+  margin: 0;
+}
+
+.funding-company p:first-of-type {
+  margin-bottom: 1rem;
 }
 
 .funding-company p {
@@ -666,6 +675,10 @@ figcaption span a {
 
   .latest-funding .flex ul li .second {
     border-right: none;
+  }
+
+  .latest-funding .flex ul li .first {
+    padding-left: 0;
   }
 
   .latest-funding-wrapper {
