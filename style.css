@@ -92,7 +92,6 @@ html {
 .main-article {
   height: 100%;
   overflow: hidden;
-  border: 1px solid #000;
   background-image: linear-gradient(
     to top,
     rgba(0, 0, 0, 0.5),
@@ -341,7 +340,6 @@ figcaption span a {
 .category-hero {
   width: 100%;
   overflow: hidden;
-  border: 1px solid #000;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
