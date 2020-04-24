@@ -376,18 +376,13 @@ figcaption span .fa-minus {
   margin-right: 1rem;
 }
 
-.deals-bg2 {
-  width: 8rem;
-  height: 8rem;
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-image: url(./img/deals-ribbon.svg);
-}
-
 .deals-tag {
   font-weight: bold;
   transform: rotate(45deg) translate(55%, 55%);
+}
+
+.hide-below768 {
+  display: none;
 }
 
 .deals .top {
@@ -580,6 +575,21 @@ figcaption span .fa-minus {
   .deals-bg {
     width: 100%;
     padding-top: 75%;
+  }
+
+  .deals-bg2 {
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(./img/deals-ribbon.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .show-above767 {
+    display: block;
   }
 
   .nav-bottom .site-links li, 
