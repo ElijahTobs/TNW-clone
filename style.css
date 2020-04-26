@@ -449,11 +449,42 @@ figcaption span a {
   width: 7.5rem;
   position: relative;
   padding-top: 7.5rem;
-  background-image: url(./img/feedback-design-516x270.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
   margin-right: 1rem;
+}
+
+.one .deals-bg {
+  background-image: url("https://cdnp0.stackassets.com/ea44b287277e7a87f07c5e1db254840af12e6a42/store/c9df736adb8f4155567ab6aaa880d56b5f7b860273ca2c9ce5ee9b4c599c/sale_27112_primary_image.jpg");
+}
+
+.two .deals-bg{
+  background-image: url("https://cdnp2.stackassets.com/44901b4f67f886447f9c81d59d48ba6e21c8d6ce/store/20491f4344bb5260f9007ee2631b2e06918766dc119ac48c5a7cbbc5ae02/sale_27302_primary_image.jpg");
+}
+
+.three .deals-bg{
+  background-image: url("https://cdnp0.stackassets.com/4b96ffc85a98989e252f857663dcdcbb97ba89ed/store/1004794515473b3765e3afb89e2bca17cfe97613ca0a25e95c2e457c8366/sale_27301_primary_image.jpg");
+}
+
+.four .deals-bg {
+  background-image: url("https://cdnp1.stackassets.com/d9e1fe520622068d8903cda2ae5383bb5e93f871/store/cce247f9c3f58f8ad34a53bf74dece67432abc09331299d709546d866d9e/sale_27378_primary_image.jpg");
+}
+
+.five .deals-bg {
+  background-image: url("https://cdnp1.stackassets.com/d093d79f8480fe204fc13778b38e1ddcf481ba66/store/40ad48517b606923cd5f360cceb6b01ff257f91cab46ed9b0d7d78b87075/sale_27973_primary_image.jpg");
+}
+
+.six .deals-bg {
+  background-image: url("https://cdnp1.stackassets.com/cba31166b47b2c151d94a8397c4aa0604771f268/store/04b44dd5593f2a7c175e4dd48292fe76d560b9c1c0536d03345aa8c50141/sale_18367_primary_image.jpg");
+}
+
+.seven .deals-bg {
+  background-image: url("https://cdnp1.stackassets.com/e5814c7482460a462c26d06b517066a1086cdf70/store/10ebcfc38f40fac5c072e3863fef177ecbe48b5e2f3075c55ecf09597d51/sale_27421_primary_image.jpg");
+}
+
+.eight .deals-bg {
+  background-image: url("https://cdnp3.stackassets.com/91bea87a7a1b16619b6904169ff33a642a82e898/store/00946b20d721800676240914157a006cfdaeffad9f78b660f2c4c57166ce/sale_27299_primary_image.jpg");
 }
 
 .deals-tag {
