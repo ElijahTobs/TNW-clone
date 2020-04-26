@@ -846,7 +846,7 @@ figcaption span a {
   .latest-funding,
   .news-categories, .deals {
     width: 85%;
-    margin: auto;
+    margin: 6rem auto 0 auto;
   }
 
   .news-categories {
