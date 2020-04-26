@@ -445,6 +445,11 @@ figcaption span a {
   margin-bottom: 1.2rem;
 }
 
+.deals-article a {
+  width: 100%;
+  color: #000;
+}
+
 .deals-bg {
   width: 7.5rem;
   position: relative;
@@ -743,11 +748,6 @@ figcaption span a {
     margin-bottom: 6rem;
   }
 
-  .deals-bg {
-    width: 100%;
-    padding-top: 75%;
-  }
-
   .deals-bg2 {
     width: 8rem;
     height: 8rem;
@@ -757,6 +757,11 @@ figcaption span a {
     background-image: url(./img/deals-ribbon.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
+  }
+
+  .deals-bg {
+    width: 100%;
+    padding-top: 75%;
   }
 
   .show-above767 {
