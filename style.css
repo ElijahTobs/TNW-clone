@@ -489,7 +489,8 @@ figcaption span a {
 
 .deals-tag {
   font-weight: bold;
-  transform: rotate(45deg) translate(55%, 55%);
+  transform: rotate(45deg) translate(40%, 55%);
+  font-size: 1.4rem;
 }
 
 .hide-below768 {
