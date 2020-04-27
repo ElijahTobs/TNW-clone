@@ -63,7 +63,7 @@ html {
 }
 
 .nav-top .fa-bars {
-  color: crimson;
+  color: #f42;
 }
 
 .nav-top div .fas {
@@ -92,17 +92,17 @@ html {
   padding: 2rem 1.5rem 1rem 1.5rem;
 }
 
-.article1 {  
+.article1 {
   background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg");
   background-size: 100% 100%;
 }
 
-.article2 {  
+.article2 {
   background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/AI-Model-Srec-796x418.png");
   background-size: 100% 100%;
 }
 
-.article3 {  
+.article3 {
   background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-14-796x417.png");
   background-size: 100% 100%;
 }
@@ -152,7 +152,7 @@ html {
 }
 
 .category-name a {
-  color: #ff4422;
+  color: #f42;
   text-decoration: none;
 }
 
@@ -162,7 +162,7 @@ html {
   height: 7.5rem;
 }
 
-.latest-article figure>div {
+.latest-article figure > div {
   width: 7.5rem;
   height: 7.5rem;
   float: left;
@@ -225,7 +225,7 @@ figcaption a {
   text-decoration: none;
 }
 
-figcaption p>a,
+figcaption p > a,
 figcaption span a:hover {
   color: #000;
 }
@@ -251,15 +251,15 @@ figcaption span a {
   color: #000;
 }
 
-.latest-funding>div>ul li {
+.latest-funding > div > ul li {
   margin: 1.3rem 0;
 }
 
-.latest-funding>div>ul li:last-child {
+.latest-funding > div > ul li:last-child {
   margin-bottom: 2.6rem;
 }
 
-.latest-funding>div>ul a {
+.latest-funding > div > ul a {
   text-decoration: none;
   font-size: 1.6rem;
   color: #f42;
@@ -295,7 +295,7 @@ figcaption span a {
   height: 3.9rem;
   padding-left: 8rem;
   color: #fff;
-  background-color: #ff4422;
+  background-color: #f42;
   display: flex;
   align-items: center;
 }
@@ -428,7 +428,7 @@ figcaption span a {
   display: flex;
   justify-content: space-between;
   background: rgb(250, 240, 238);
-  margin-top: .4rem;
+  margin-top: 0.4rem;
   overflow: hidden;
 }
 
@@ -471,7 +471,7 @@ figcaption span a {
   font-size: 1.3rem;
 }
 
-.category-third>h2>a:before {
+.category-third > h2 > a:before {
   background-color: #f42;
   border-radius: 50%;
   content: "";
@@ -504,6 +504,7 @@ figcaption span a {
 
 .deals-info {
   width: calc(100% - 8.5rem);
+  margin-top: 1rem;
 }
 
 .deals-bg {
@@ -554,11 +555,6 @@ figcaption span a {
 
 .hide-below768 {
   display: none;
-}
-
-.deals-info {
-  /* width: calc(100% - 8.5rem); */
-  margin-top: 1rem;
 }
 
 .deals-title {
@@ -621,7 +617,7 @@ figcaption span a {
 }
 
 .nav-bottom .social-links li {
-  margin-right: .6rem;
+  margin-right: 0.6rem;
   font-size: 1.4rem;
   padding-top: 5rem;
 }
@@ -672,15 +668,15 @@ figcaption span a {
 }
 
 .page-footer p {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .page-footer p .love {
-  color: red;
+  color: #f42;
 }
 
 .page-footer img {
-  height: .9rem;
+  height: 0.9rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -753,13 +749,13 @@ figcaption span a {
     justify-content: flex-start;
   }
 
-  .latest-funding>div>ul li {
-    margin: .5rem 0;
+  .latest-funding > div > ul li {
+    margin: 0.5rem 0;
   }
 
   .latest-funding div.flex li a {
     border-right: 1px #f42 solid;
-    padding: 0 .7rem;
+    padding: 0 0.7rem;
   }
 
   /* .latest-funding div li .no-padding {
