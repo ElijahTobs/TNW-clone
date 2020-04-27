@@ -92,11 +92,9 @@ html {
 .main-article {
   height: 100%;
   overflow: hidden;
-  background-image: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.5),
-    rgba(255, 255, 255, 1)
-  );
+  background-image: linear-gradient(to top,
+      rgba(0, 0, 0, 0.5),
+      rgba(255, 255, 255, 1));
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -124,7 +122,8 @@ html {
 
 .news-categories,
 .latest-funding,
-.latest, .deals {
+.latest,
+.deals {
   width: 95%;
   height: auto;
   margin: 6rem auto 0 auto;
@@ -152,7 +151,7 @@ html {
   height: 7.5rem;
 }
 
-.latest-article figure > div {
+.latest-article figure>div {
   width: 7.5rem;
   height: 7.5rem;
   float: left;
@@ -183,14 +182,17 @@ html {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Dr.-spot-510x270.jpg") center;
   background-size: cover;
 }
+
 .latest-article:nth-child(6) div {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed-516x270.png") center;
   background-size: cover;
 }
+
 .latest-article:nth-child(7) div {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-New-Horizons-516x270.jpg") center;
   background-size: cover;
 }
+
 .latest-article:nth-child(8) div {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Levy-Electric-Scooter-4-of-4-515x270.jpg") center;
   background-size: cover;
@@ -207,11 +209,12 @@ figcaption .fa-minus {
   font-size: 3px;
   margin-bottom: 5px;
 }
+
 figcaption a {
   text-decoration: none;
 }
 
-figcaption p > a,
+figcaption p>a,
 figcaption span a:hover {
   color: #000;
 }
@@ -237,15 +240,15 @@ figcaption span a {
   color: #000;
 }
 
-.latest-funding > div > ul li {
+.latest-funding>div>ul li {
   margin: 1.3rem 0;
 }
 
-.latest-funding > div > ul li:last-child {
+.latest-funding>div>ul li:last-child {
   margin-bottom: 2.6rem;
 }
 
-.latest-funding > div > ul a {
+.latest-funding>div>ul a {
   text-decoration: none;
   font-size: 1.6rem;
   color: #ff4422;
@@ -356,15 +359,14 @@ figcaption span a {
   height: 52.8rem;
 }
 
-.category-hero > h1 > a {
+.category-hero>h1>a {
   text-decoration: none;
   color: #fff;
   font-size: 2rem;
 }
 
 .apps-hero {
-  background-image: linear-gradient(
-      to top,
+  background-image: linear-gradient(to top,
       rgba(0, 0, 0, 0.8),
       rgba(255, 255, 255, 1)
     ),
@@ -373,6 +375,8 @@ figcaption span a {
   background-size: cover;
   background-position: 50% 50%;
 }
+
+
 
 .category-second {
   width: 100%;
@@ -421,7 +425,7 @@ figcaption span a {
   font-size: 1.3rem;
 }
 
-.category-third > h2 > a:before {
+.category-third>h2>a:before {
   background-color: #f42;
   border-radius: 50%;
   content: "";
@@ -467,11 +471,11 @@ figcaption span a {
   background-image: url("https://cdnp0.stackassets.com/ea44b287277e7a87f07c5e1db254840af12e6a42/store/c9df736adb8f4155567ab6aaa880d56b5f7b860273ca2c9ce5ee9b4c599c/sale_27112_primary_image.jpg");
 }
 
-.two .deals-bg{
+.two .deals-bg {
   background-image: url("https://cdnp2.stackassets.com/44901b4f67f886447f9c81d59d48ba6e21c8d6ce/store/20491f4344bb5260f9007ee2631b2e06918766dc119ac48c5a7cbbc5ae02/sale_27302_primary_image.jpg");
 }
 
-.three .deals-bg{
+.three .deals-bg {
   background-image: url("https://cdnp0.stackassets.com/4b96ffc85a98989e252f857663dcdcbb97ba89ed/store/1004794515473b3765e3afb89e2bca17cfe97613ca0a25e95c2e457c8366/sale_27301_primary_image.jpg");
 }
 
@@ -568,7 +572,7 @@ figcaption span a {
   font-size: 1.3rem;
   margin-right: 1rem;
 }
- 
+
 .nav-bottom .social-links li {
   margin-right: .6rem;
   font-size: 1.4rem;
@@ -585,6 +589,7 @@ figcaption span a {
   /* color: #555; */
   text-decoration: none;
 }
+
 .nav-bottom .social-links li a {
   border: 1px solid #333;
   border-radius: 50%;
@@ -600,7 +605,7 @@ figcaption span a {
   background: #111;
 }
 
-.nav-bottom .site-links li a{
+.nav-bottom .site-links li a {
   color: #aaa;
 }
 
@@ -655,7 +660,8 @@ figcaption span a {
     grid-area: article3;
   }
 
-  .latest-wrapper, .deals-wrapper {
+  .latest-wrapper,
+  .deals-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
@@ -693,14 +699,14 @@ figcaption span a {
     height: 100%;
   }
 
-  
+
 
   .latest-funding div ul {
     display: flex;
     justify-content: flex-start;
   }
 
-  .latest-funding > div > ul li {
+  .latest-funding>div>ul li {
     margin: .5rem 0;
   }
 
@@ -739,7 +745,7 @@ figcaption span a {
   }
 
   .category-hero {
-      height: 27.7rem;
+    height: 27.7rem;
   }
 
   .deals-wrapper {
@@ -771,7 +777,7 @@ figcaption span a {
     display: block;
   }
 
-  .nav-bottom .site-links li, 
+  .nav-bottom .site-links li,
   .nav-bottom .social-links li {
     margin-right: 1.5rem;
   }
@@ -852,7 +858,8 @@ figcaption span a {
 
   .latest,
   .latest-funding,
-  .news-categories, .deals {
+  .news-categories,
+  .deals {
     width: 85%;
     margin: 6rem auto 0 auto;
   }
