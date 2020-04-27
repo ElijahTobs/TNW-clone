@@ -83,18 +83,12 @@ html {
   margin: 0 10px;
 }
 
-.hero-section article:first-child {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .main-article {
   height: 100%;
   overflow: hidden;
-  background-image: linear-gradient(to top,
-      rgba(0, 0, 0, 0.5),
-      rgba(255, 255, 255, 1));
+  background: transparent linear-gradient(to top,
+      rgba(0, 0, 0, 0.4),
+      rgba(255, 255, 255, 0.2)) no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -105,6 +99,10 @@ html {
   text-decoration: none;
   color: #fff;
   font-size: 2rem;
+}
+
+.article1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg");
 }
 
 .article-category {
@@ -251,7 +249,7 @@ figcaption span a {
 .latest-funding>div>ul a {
   text-decoration: none;
   font-size: 1.6rem;
-  color: #ff4422;
+  color: #f42;
 }
 
 .latest-funding-wrapper {
@@ -260,8 +258,7 @@ figcaption span a {
 }
 
 .funding-article .raise {
-  margin: 1rem;
-  margin-left: 1.6rem;
+  margin: 1rem 0 1rem 1.6rem;
 }
 
 .funding-article .funding-amount {
@@ -275,7 +272,6 @@ figcaption span a {
 .funding-article p.raise {
   font-size: 1.2rem;
   line-height: 1.8;
-  margin-bottom: 4rem;
 }
 
 .funding-article p span {
@@ -359,7 +355,7 @@ figcaption span a {
   height: 52.8rem;
 }
 
-.category-hero>h1>a {
+.category-hero > h1 > a {
   text-decoration: none;
   color: #fff;
   font-size: 2rem;
