@@ -131,6 +131,7 @@ html {
 .latest,
 .deals {
   width: 95%;
+  min-width: 30rem;
   height: auto;
   margin: 6rem auto 0 auto;
 }
