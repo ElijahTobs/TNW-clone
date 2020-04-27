@@ -140,9 +140,13 @@ html {
   margin-top: 6rem;
 }
 
+.fa-chevron-right {
+  font-size: 2rem;
+}
+
 .category-name {
   font-size: 2.8rem;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 1rem;
 }
 
@@ -363,7 +367,7 @@ figcaption span a {
   height: 52.8rem;
 }
 
-.category-hero > h1 > a {
+.category-hero > h2 > a {
   text-decoration: none;
   color: #fff;
   font-size: 2rem;
@@ -444,9 +448,10 @@ figcaption span a {
 .category-second-title {
   display: block;
   text-decoration: none;
-  color: red;
+  color: #f42;
   margin-top: 0.5rem;
   font-size: 1.4rem;
+  line-height: 1.3;
 }
 
 .category-third h2 {
@@ -905,6 +910,7 @@ figcaption span a {
   .news-categories,
   .deals {
     width: 85%;
+    max-width: 119.2rem;
     margin: 6rem auto 0 auto;
   }
 
