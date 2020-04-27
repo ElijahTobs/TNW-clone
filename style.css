@@ -449,6 +449,7 @@ figcaption span a {
 .deals-article {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 1.2rem;
 }
@@ -752,13 +753,26 @@ figcaption span a {
     height: 27.7rem;
   }
 
-  .deals-wrapper {
+  /* .deals-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, auto);
     gap: 15px;
     justify-content: space-between;
     margin-bottom: 6rem;
+  } */
+
+  .deals-article {
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .deals-article a {
+    width: 100%;
+  }
+
+  .deals-info {
+    width: 100%;
   }
 
   .deals-bg2 {
