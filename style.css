@@ -445,19 +445,22 @@ figcaption span a {
   margin-bottom: 1.2rem;
 }
 
-.deals-article a {
-  width: 100%;
+.deals-article a {  
+  width: 7.5rem;
   color: #000;
+  margin-right: 1rem;
+}
+
+.deals-info {
+  width: calc(100% - 8.5rem);
 }
 
 .deals-bg {
-  width: 7.5rem;
   position: relative;
   padding-top: 7.5rem;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  margin-right: 1rem;
 }
 
 .one .deals-bg {
