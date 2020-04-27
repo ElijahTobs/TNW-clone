@@ -86,13 +86,25 @@ html {
 .main-article {
   height: 100%;
   overflow: hidden;
-  background: transparent linear-gradient(to top,
-      rgba(0, 0, 0, 0.4),
-      rgba(255, 255, 255, 0.2)) no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: 2rem 1.5rem;
+  padding: 2rem 1.5rem 1rem 1.5rem;
+}
+
+.article1 {  
+  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg");
+  background-size: 100% 100%;
+}
+
+.article2 {  
+  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg");
+  background-size: 100% 100%;
+}
+
+.article3 {  
+  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg");
+  background-size: 100% 100%;
 }
 
 .main-article a {
@@ -101,16 +113,12 @@ html {
   font-size: 2rem;
 }
 
-.article1 {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg");
-}
-
 .article-category {
   color: rgb(231, 228, 228);
 }
 
 .category-red {
-  color: red;
+  color: #f42;
   font-size: 1.3rem;
 }
 
