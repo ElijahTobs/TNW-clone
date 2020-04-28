@@ -3,7 +3,7 @@
 A responsive design project by microverse.
 The project is a clone of thenextweb.com
 
-![screenshot](./screencapture-127-0-0-1-5500-TNW-clone-index-html-2020-04-28-11_19_29)
+![screenshot](./app-screenshot.png)
 
 ## Built With
 
