@@ -9,7 +9,7 @@ html {
 
 .nav-top {
   display: grid;
-  grid-template-columns: 10.6rem 1fr;
+  grid-template-columns: auto 1fr;
   grid-template-rows: auto auto;
   grid-template-areas: 
       "tnw-logo first-part"
@@ -25,6 +25,7 @@ html {
 }
 
 .tnw-logo {
+  width: 10.6rem;
   grid-area: tnw-logo;
   display: flex;
   justify-content: center;
@@ -38,7 +39,7 @@ html {
 
 .first-part {
   height: 3.2rem;
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   grid-area: first-part;
@@ -47,16 +48,16 @@ html {
 
 .first-part a {
   color: #fff;
+  margin: 0 1rem;
 }
 
-.first-left li,
-.first-right li {
-  margin: 0 1rem;
+.first-left {
+  min-width: 42.6rem;
 }
 
 .second-part {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
   grid-area: second-part;
   height: 4.8rem;
@@ -64,17 +65,17 @@ html {
 
 .second-part a {
   color: #aaa;
+  margin: 0 1rem;
 }
 
-.second-left li {
-  margin: 0 1rem;
+.second-left {
+  display: none;
 }
 
 .second-right {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 1rem;
 }
 
 .second-right i {
@@ -706,6 +707,22 @@ figcaption span a {
 }
 
 @media only screen and (min-width: 768px) {
+  .first-part {
+    display: flex;
+  }
+
+  .second-part {
+    justify-content: space-between;
+  }
+
+  .second-left {
+    display: flex;
+  }
+
+  .nav-top .fa-bars {
+    display: none;
+  }
+
   .hero-section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -864,6 +881,10 @@ figcaption span a {
 }
 
 @media only screen and (min-width: 1024px) {
+  .tnw-logo {
+    display: none;
+  }
+
   .hero-section {
     grid-template-rows: repeat(2, 20.2rem);
   }
