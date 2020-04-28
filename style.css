@@ -16,7 +16,22 @@ html {
   justify-content: space-between;
 }
 
-.nav-top a {
+.nav-top .first,
+.nav-top .second {
+  display: flex;
+}
+
+.nav-top .first li,
+.nav-top .second li {
+  display: inline;
+}
+
+.nav-top .first a,
+.nav-top .second a {
+  text-decoration: none;
+}
+
+.nav-top a.logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,28 +60,24 @@ html {
 	align-items: center;
 } */
 
-.nav-top ul {
+/* .nav-top ul {
   display: flex;
   justify-content: center;
   margin: auto;
-}
+} */
 
-.nav-top li {
-  float: left;
-  /* justify-self: center;
-	align-self: center; */
-  /* margin: auto; */
-}
 
-.nav-top .fas::before {
+/* .nav-top .fas::before {
   padding-top: 25px;
-}
+} */
 
 .nav-top .fa-bars {
   color: #f42;
 }
 
 .nav-top div .fas {
+  /* float: left; */
+  margin: auto;
   width: 4.8rem;
   height: 4.8rem;
   font-size: 2rem;
