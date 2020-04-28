@@ -71,7 +71,6 @@ figcaption p > a {
 }
 
 .deals-article a {
-  width: 100%;
   width: 7.5rem;
   color: #000;
   margin-right: 1rem;
@@ -822,14 +821,14 @@ figcaption .fa-minus {
     margin: 0.5rem 0;
   }
 
+  .deals-article a {
+    width: 100%;
+  }
+
   .latest-funding div.flex li a {
     border-right: 1px #f42 solid;
     padding: 0 0.7rem;
   }
-
-  /* .latest-funding div li .no-padding {
-    padding-left: 0;
-  } */
 
   .latest-funding .flex ul li .second {
     border-right: none;
@@ -843,8 +842,6 @@ figcaption .fa-minus {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
-
-    /* margin-top: 2rem; */
   }
 
   .hide768 {
