@@ -20,8 +20,71 @@ html {
   display: inline;
 }
 
+figcaption a {
+  text-decoration: none;
+}
+
+figcaption span a {
+  color: #aaa;
+}
+
+figcaption p > a {
+  color: #000;
+}
+
 .nav-top a {
   text-decoration: none;
+}
+
+.first-part a {
+  color: #fff;
+  margin: 0 1rem;
+}
+
+.second-part a {
+  color: #aaa;
+  margin: 0 1rem;
+}
+
+.main-article a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.category-name a {
+  color: #f42;
+  text-decoration: none;
+}
+
+.nav-bottom a {
+  /* color: #555; */
+  text-decoration: none;
+}
+
+.category-third a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  margin: 1rem 0;
+  font-size: 1.3rem;
+}
+
+.deals-article a {
+  width: 100%;
+  width: 7.5rem;
+  color: #000;
+  margin-right: 1rem;
+}
+
+.category-hero > h2 > a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+}
+
+figcaption span a:hover {
+  color: #000;
 }
 
 .tnw-logo {
@@ -46,11 +109,6 @@ html {
   background-color: #000;
 }
 
-.first-part a {
-  color: #fff;
-  margin: 0 1rem;
-}
-
 .first-left {
   min-width: 42.6rem;
 }
@@ -61,11 +119,6 @@ html {
   align-items: center;
   grid-area: second-part;
   height: 4.8rem;
-}
-
-.second-part a {
-  color: #aaa;
-  margin: 0 1rem;
 }
 
 .second-left {
@@ -107,24 +160,24 @@ html {
 }
 
 .article1 {
-  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg");
+  background:
+    url(./img/image-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Zuck-shopping-jio-796x418.jpg");
   background-size: 100% 100%;
 }
 
 .article2 {
-  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/AI-Model-Srec-796x418.png");
+  background:
+    url(./img/image-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/AI-Model-Srec-796x418.png");
   background-size: 100% 100%;
 }
 
 .article3 {
-  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-14-796x417.png");
+  background:
+    url(./img/image-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-14-796x417.png");
   background-size: 100% 100%;
-}
-
-.main-article a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 2rem;
 }
 
 .article-category {
@@ -169,15 +222,18 @@ html {
   margin-bottom: 1rem;
 }
 
-.category-name a {
-  color: #f42;
-  text-decoration: none;
-}
-
 .latest-article {
   margin: 0 0 3rem 0;
   width: 100%;
   height: 7.5rem;
+}
+
+.funding-details div {
+  margin: 1rem 0 0 2rem;
+}
+
+.category-second div {
+  padding: 1rem 1.4rem 0;
 }
 
 .latest-article figure > div {
@@ -188,42 +244,58 @@ html {
 }
 
 .latest-article:nth-child(1) div {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/users-website-gq-516x270.png") center;
+  background:
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/users-website-gq-516x270.png")
+    center;
   background-size: cover;
 }
 
 .latest-article:nth-child(2) div {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/keyword_in-device_2000x1400_1.max-1000x1000-386x270.jpg") center;
+  background:
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/keyword_in-device_2000x1400_1.max-1000x1000-386x270.jpg")
+    center;
   background-size: cover;
 }
 
 .latest-article:nth-child(3) div {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/OnePlus-8-Pro-screen-514x270.jpg") center;
+  background:
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/OnePlus-8-Pro-screen-514x270.jpg")
+    center;
   background-size: cover;
 }
 
 .latest-article:nth-child(4) div {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/empathy-leadership-gq-516x270.png") center;
+  background:
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/empathy-leadership-gq-516x270.png")
+    center;
   background-size: cover;
 }
 
 .latest-article:nth-child(5) div {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Dr.-spot-510x270.jpg") center;
+  background:
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Dr.-spot-510x270.jpg")
+    center;
   background-size: cover;
 }
 
 .latest-article:nth-child(6) div {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed-516x270.png") center;
+  background:
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed-516x270.png")
+    center;
   background-size: cover;
 }
 
 .latest-article:nth-child(7) div {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-New-Horizons-516x270.jpg") center;
+  background:
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Animal-Crossing-New-Horizons-516x270.jpg")
+    center;
   background-size: cover;
 }
 
 .latest-article:nth-child(8) div {
-  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Levy-Electric-Scooter-4-of-4-515x270.jpg") center;
+  background:
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Levy-Electric-Scooter-4-of-4-515x270.jpg")
+    center;
   background-size: cover;
 }
 
@@ -238,24 +310,18 @@ figcaption .fa-minus {
   margin-bottom: 5px;
 }
 
-figcaption a {
-  text-decoration: none;
-}
-
-figcaption p > a,
-figcaption span a:hover {
-  color: #000;
-}
-
-figcaption span a {
-  color: #aaa;
-}
-
 .latest-article figcaption {
   margin-left: 5px;
   font-size: 14px;
   font-family: sans-serif;
   font-weight: bold;
+}
+
+.category-third h2 {
+  line-height: 1.5;
+  font-weight: 200;
+  position: relative;
+  padding-left: 1rem;
 }
 
 .latest-article figcaption h2 {
@@ -270,6 +336,17 @@ figcaption span a {
 
 .latest-funding > div > ul li {
   margin: 1.3rem 0;
+}
+
+.nav-bottom .site-links li {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+
+.nav-bottom .social-links li {
+  margin-right: 0.6rem;
+  font-size: 1.4rem;
+  padding-top: 5rem;
 }
 
 .latest-funding > div > ul li:last-child {
@@ -289,6 +366,12 @@ figcaption span a {
 
 .funding-article .raise {
   margin: 1rem 0 1rem 1.6rem;
+}
+
+.funding-header,
+.funding-amount {
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
 .funding-article .funding-amount {
@@ -317,19 +400,9 @@ figcaption span a {
   align-items: center;
 }
 
-.funding-header,
-.funding-amount {
-  font-size: 1.8rem;
-  font-weight: bold;
-}
-
 .funding-details {
   display: flex;
   background-color: rgba(255, 68, 34, 0.08);
-}
-
-.funding-details div {
-  margin: 1rem 0 0 2rem;
 }
 
 .funding-details img {
@@ -350,12 +423,12 @@ figcaption span a {
   margin: 0;
 }
 
-.funding-company p:first-of-type {
-  margin-bottom: 1rem;
-}
-
 .funding-company p {
   font-size: 1.3rem;
+}
+
+.funding-company p:first-of-type {
+  margin-bottom: 1rem;
 }
 
 .funding-article hr {
@@ -385,56 +458,73 @@ figcaption span a {
   height: 52.8rem;
 }
 
-.category-hero > h2 > a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 2rem;
-}
-
 .apps-hero {
-  background: url(./img/image-gradient.png), url(./img/zoom-5.0-1024x576-796x448.jpg) no-repeat;
+  background:
+    url(./img/image-gradient.png),
+    url(./img/zoom-5.0-1024x576-796x448.jpg) no-repeat;
   background-size: 100% 100%;
   background-position: 50% 50%;
 }
 
 .gear-hero {
-  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/OnePlus-8-Pro-screen-368x276.jpg") no-repeat;
+  background:
+    url(./img/image-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/OnePlus-8-Pro-screen-368x276.jpg")
+    no-repeat;
   background-size: 100% 100%;
   background-position: 50% 50%;
 }
 
 .tech-hero {
-  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/AI-Model-Srec-368x276.png") no-repeat;
+  background:
+    url(./img/image-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/AI-Model-Srec-368x276.png")
+    no-repeat;
   background-size: 100% 100%;
   background-position: 50% 50%;
 }
 
 .creative-hero {
-  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-11-368x276.png") no-repeat;
+  background:
+    url(./img/image-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Untitled-design-11-368x276.png")
+    no-repeat;
   background-size: 100% 100%;
   background-position: 50% 50%;
 }
 
 .podium-hero {
-  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Featured-Image-The-Next-Web-368x276.jpeg") no-repeat;
+  background:
+    url(./img/image-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/Featured-Image-The-Next-Web-368x276.jpeg")
+    no-repeat;
   background-size: 100% 100%;
   background-position: 50% 50%;
 }
 
 .insights-hero {
-  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/woman-women-female-gq-368x276.png") no-repeat;
+  background:
+    url(./img/image-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/woman-women-female-gq-368x276.png")
+    no-repeat;
   background-size: 100% 100%;
   background-position: 50% 50%;
 }
 
 .launch-hero {
-  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/JioMart-WhatsApp-Ordering-hed-368x276.jpg") no-repeat;
+  background:
+    url(./img/image-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/JioMart-WhatsApp-Ordering-hed-368x276.jpg")
+    no-repeat;
   background-size: 100% 100%;
   background-position: 50% 50%;
 }
 
 .distract-hero {
-  background: url(./img/image-gradient.png), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/joel-muniz-Y6CT3a-RJ68-unsplash-1-368x276.jpg") no-repeat;
+  background:
+    url(./img/image-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/04/joel-muniz-Y6CT3a-RJ68-unsplash-1-368x276.jpg")
+    no-repeat;
   background-size: 100% 100%;
   background-position: 50% 50%;
 }
@@ -451,10 +541,6 @@ figcaption span a {
 
 /* .category-second .category-red */
 
-.category-second div {
-  padding: 1rem 1.4rem 0;
-}
-
 .category-second img {
   width: 9.6rem;
 }
@@ -470,21 +556,6 @@ figcaption span a {
   margin-top: 0.5rem;
   font-size: 1.4rem;
   line-height: 1.3;
-}
-
-.category-third h2 {
-  line-height: 1.5;
-  font-weight: 200;
-  position: relative;
-  padding-left: 1rem;
-}
-
-.category-third a {
-  text-decoration: none;
-  color: #333;
-  display: block;
-  margin: 1rem 0;
-  font-size: 1.3rem;
 }
 
 .category-third > h2 > a::before {
@@ -510,12 +581,6 @@ figcaption span a {
   justify-content: space-between;
   align-items: flex-start;
   margin-bottom: 1.2rem;
-}
-
-.deals-article a {
-  width: 7.5rem;
-  color: #000;
-  margin-right: 1rem;
 }
 
 .deals-info {
@@ -627,27 +692,13 @@ figcaption span a {
   padding-top: 5rem;
 }
 
-.nav-bottom .site-links li {
-  font-size: 1.3rem;
-  margin-right: 1rem;
-}
 
-.nav-bottom .social-links li {
-  margin-right: 0.6rem;
-  font-size: 1.4rem;
-  padding-top: 5rem;
-}
 
 /* .social-links .fab::before,
 .social-links .fas::before {
   width: 1.6rem;
   height: 1.6rem;
 } */
-
-.nav-bottom a {
-  /* color: #555; */
-  text-decoration: none;
-}
 
 .nav-bottom .social-links li a {
   border: 1px solid #333;
@@ -660,12 +711,12 @@ figcaption span a {
   font-size: 1.8rem;
 }
 
-.nav-bottom .social-links li a:hover {
-  background: #111;
-}
-
 .nav-bottom .site-links li a {
   color: #aaa;
+}
+
+.nav-bottom .social-links li a:hover {
+  background: #111;
 }
 
 .nav-bottom .site-links li a:hover {
@@ -681,10 +732,6 @@ figcaption span a {
   height: 9.7rem;
   font-size: 1.4rem;
   color: #aaa;
-}
-
-.page-footer p {
-  margin-top: 0.5rem;
 }
 
 .page-footer p .love {
@@ -827,10 +874,6 @@ figcaption span a {
     justify-content: start;
   }
 
-  .deals-article a {
-    width: 100%;
-  }
-
   .deals-info {
     width: 100%;
   }
@@ -917,14 +960,11 @@ figcaption span a {
 
   .latest-funding .flex ul li .first {
     border-right: none;
+    padding: 0.7rem;
   }
 
   .latest-funding .flex ul li .second {
     border-right: #f42 1px solid;
-  }
-
-  .latest-funding .flex ul li .first {
-    padding: 0.7rem;
   }
 
   .latest-funding div ul {
